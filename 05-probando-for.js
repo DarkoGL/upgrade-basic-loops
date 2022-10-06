@@ -12,6 +12,7 @@ const placesToTravel = [
   { id: 40, name: "Santander" },
   { id: 44, name: "Filipinas" },
   { id: 59, name: "Madagascar" },
+  { id: 40, name: "Jamon" },
 ];
 
 for(let i = 0; i < placesToTravel.length; i++){
