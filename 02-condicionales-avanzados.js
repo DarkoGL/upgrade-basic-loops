@@ -15,8 +15,7 @@ const alumnos = [
 ]
 
 for(const alumno of alumnos){
-    if(alumno.T1 && alumno.T2 || alumno.T1 && alumno.T3 || alumno.T2 && alumno.T3) alumno.isApproved = true;
-    else alumno.isApproved = false;
+    alumno.T1 && alumno.T2 || alumno.T1 && alumno.T3 || alumno.T2 && alumno.T3 ? alumno.isApproved = true : alumno.isApproved = false;
 }
 
 console.log(alumnos);
