@@ -6,6 +6,6 @@
 
 const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
 
-for(placeToTravel of placesToTravel){
+for(let placeToTravel of placesToTravel){
     console.log(placeToTravel);
 }
